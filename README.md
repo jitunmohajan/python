@@ -5,6 +5,21 @@
 #print hello world
 print("Hello world")
 
+print("My", "name", "is", "Monty", "Python.", sep="-")
+#output=My-name-is-Monty-Python.
+print("My", "name", "is", "Monty", "Python.", sep="+")
+#output=My+name+is+Monty+Python.
+print("My", "name", "is", sep="_", end="*")
+print("Monty", "Python.", sep="*", end="*\n")
+#output=My_name_is*Monty*Python.*
+print(0o123)#print the number 123 in octal after conversion
+#output=83
+print(0x123)#print the number 123 in hexa decimal after conversion
+#output=291
+
+    2 ** 2 → 4; 4 ** 3 → 64      ** → exponentiation> works like power
+    2 ** 3 → 8; 2 ** 8 → 256
+
 
 #    take a user 
 inputz=input() #this will take a string as input
